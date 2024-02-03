@@ -1,7 +1,7 @@
 
 
  
-  @tag3
+
  Scenario Outline: login to hrm application with invalid valid test data
     Given using hrm url in any browser
     When user type <Username> and <Password>

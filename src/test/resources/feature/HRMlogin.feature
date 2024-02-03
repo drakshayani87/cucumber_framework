@@ -1,8 +1,8 @@
-Feature: Validate hrm credentials
+Feature: Validate jrc credentials
 
 
   Scenario: login to hrm application with invalid test data
     Given using hrm url in any browser
-    When user type invalid Username and Password
+   When user type invalid Username and Password
     And click on login button
     Then verify the error message 
